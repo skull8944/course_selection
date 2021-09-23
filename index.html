@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: #cdcdcd;
+            font-family:微軟正黑體;
+        }
+        .title{
+            font-size: 10vmin;
+            color: #636b6f;
+            padding: 0 25px;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .full-height {
+            height: 100vh;
+        }
+
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .position-ref {
+            position: relative;
+        }
+
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+
+        .content {
+            text-align: center;
+        }
+        .m-b-md {
+            margin-bottom: 30px;
+        }#loading{
+            font-size: 5vmin;
+            position: absolute;
+            background-color: #cdcdcd;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+            text-align: center;
+            line-height: 2000%;
+        }
+    </style>
+</head>
+<body> 
+    <div class="flex-center position-ref full-height">
+        <div class="top-right links">
+            <div class="fixed top-0 sm:block">
+                <a href="login.html" class="text-lg text-gray-700" id="login" style="color: #335D70;">登入</a>
+                <a href="register.html" class="ml-4 text-lg text-gray-700" id="register" style="color: #335D70;">註冊</a>
+            </div>
+        </div>
+        <div class="title m-b-md" style="color: #335D70;">選課系統</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
